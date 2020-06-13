@@ -1,2 +1,2 @@
-# CodeChef
-CodeChef solutions
+# Codeforces
+Codeforces solutions
