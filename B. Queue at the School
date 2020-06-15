@@ -1,0 +1,22 @@
+//ashish_07
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int N,T;
+	string s;
+	cin>>N>>T>>s;
+	while (T--)
+    {
+        for (int i = 1; i < N; ++i)
+        {
+            if (s[i] == 'G' && s[i-1] == 'B')
+            {
+                s[i] = 'B';
+                s[i-1] = 'G';
+                ++i;
+            }
+        }
+    }
+    cout << s << endl;
+    return 0;
+}
